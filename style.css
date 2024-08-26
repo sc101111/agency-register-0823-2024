@@ -23,7 +23,7 @@ body {
     font-size:24px;
     width: 100%;
     min-height: 100vh;
-    padding: 0 10px;
+    padding: 10px 10px;
     display: flex;
     background: #88bf3f;
     justify-content: center;
