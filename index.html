@@ -21,18 +21,21 @@
         <label for="agency">機構名稱</label>
         <input type="text" id="agency" required />
       </div>
-	   <!-- agency class input box -->
+	   <!-- agency type input box -->
 	  <div class="input_box">
-	  <label for="agency_name">機構類型</label>
-      <select class="form-control" id="selector_agency" multiple="multiple" size="8" required>
-	                    <option value="非營利社團法人" class="agency_type">非營利社團法人(例如: 政黨、非政府組織協會、學會、工會)</option>
-                        <option value="營利社團法人" class="agency_type">營利社團法人(如: 公有營業機構、銀行)</option>
-						<option value="公益財團法人" class="agency_type">公益財團法人(如: 私立學校、研究機構、教會、寺廟、基金會)</option>
-                        <option value="政府財團法人" class="agency_type">政府財團法人</option>
-						<option value="地方自治團體" class="agency_type">地方自治團體</option>
-						<option value="行政法人" class="agency_type">行政法人</option>
-						<option value="公共營造物法人" class="agency_type">公共營造物法人</option>
+	  <label for="agency_type">機構類型</label>
+	  <select class="form-control" id="selector_agency" multiple="multiple" size="9" required>
+	                    <optgroup label="請選取:">						
+						<option value="非營利社團法人" class="agency_type">非營利社團法人(如: 政黨、學會、工會)</option>
+                        <option value="營利社團法人" class="agency_type">營利社團法人(如: 公營機構、銀行、商會)</option>
+						<option value="公法社團法人" class="agency_type">公法社團法人(如: 農田水利會)</option>
+						<option value="公益財團法人" class="agency_type">公益財團法人(如: 私校、教會、寺廟、基金會)</option>
+                        <option value="政府財團法人" class="agency_type">政府財團法人(如: 政府財團基金會)</option>
+						<option value="公法財團法人" class="agency_type">公法財團法人(如: 紀念基金會)</option>
+						<option value="地方自治團體" class="agency_type">地方自治團體(如: 市縣區鄉鎮里)</option>
+						<option value="行政法人" class="agency_type">行政法人(如: 研究院、都更中心)</option>						
 						<option value="其他公法人" class="agency_type">其他公法人</option>
+						</optgroup>
 	  </select>	 
       </div>
 	   <!-- address input box -->

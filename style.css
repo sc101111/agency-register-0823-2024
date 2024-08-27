@@ -6,10 +6,7 @@
     margin-right: auto;
     width: 15%;
   }
- 
-.styled-select option.agency_name {
-    font-size: 24px;
-}
+optgroup { font-size:16px; }
 /* Resetting default styling and setting font-family */
 * {
     margin: 0;
@@ -36,7 +33,7 @@ body {
     max-width: 435px;
     background: #fff;
     border-radius: 10px;
-    padding: 25px 30px;
+    padding: 15px 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -118,6 +115,7 @@ form .input_box label {
     display: block;
     font-weight: 500;
     margin-bottom: 8px;
+	margin-top: 10px;
 }
 
 /* Input field styling */
@@ -130,7 +128,7 @@ form .input_box input {
     background: #F8F8FB;
     font-size: 24px;
     padding: 0px 20px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     transition: 0.2s ease;
 }
 
